@@ -4,16 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Laptop {
+public class HardDrive {
 
     @Autowired
-    HardDrive hard;
+    SemiConductor semi;
 
-
-    public void compile() {
-        System.out.println("Laptop class created and compile method caller");
-        hard.mem();
-
+    public void mem() {
+        System.out.println("Hard drive class created and mem method created");
+        semi.diode();
     }
 
 }

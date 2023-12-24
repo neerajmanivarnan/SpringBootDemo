@@ -9,7 +9,7 @@ public class Alien {
     @Autowired
     Laptop lp;
     public  void demo(){
-        System.out.println("New Project Initialised...");
+        System.out.println("Alien class created and demo method called");
         lp.compile();
     }
 }
